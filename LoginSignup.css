@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #93aac6;
+    border: 90px;
+    border-color: black;
+   
+}
+.ha{
+    background-color: rgb(36, 48, 44);
+    border: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    border-color: black;
+    justify-content: center;
+    width: 500px;
+    height: 390px;
+    border-radius: 40px;
+}
+  .header {
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-top: 6px;
+  }
+  
+  .text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .underline {
+    height: 2px;
+    width: 100px;
+    
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  body{
+    color :rgb(241, 247, 241); 
+  }
+  .body{
+    background-color: rgb(141, 141, 30);
+  }
+  .input img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .input input {
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+  
+   /* .forgot-password {
+    margin-bottom: 20px;
+    text-align: center;
+    color :rgb(210, 212, 244);
+  }
+  
+  .forgot-password span {
+    color: #e0e3f1;
+    cursor: pointer;
+  }  */
+ 
+  
+  .submit-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .submit {
+    padding: 10px 20px;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit:hover {
+    background-color: #3f51b5;
+    color: #ffffff;
+  }
+  .forgot-password:hover{
+    
+    color: #ffffff;
+   
+    margin-bottom: 10px;
+  }
+  .forgot-password span {
+    color: #542cba;
+    cursor :pointer;
+    
+}
+  .grey {
+    background-color: #f0f2f5;
+    color: #3f51b5;
+  }
+  
+  .grey:hover {
+    background-color: #3f51b5;
+    color: #ffffff;
+  }
+
